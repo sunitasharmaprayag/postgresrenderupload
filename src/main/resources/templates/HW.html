@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+    <head>
+        <title>Project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css"> 
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Organic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">TRENDING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ORGANIC</a>
+             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">STORE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactUs">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Log In</a>
+            </li>
+          </ul>
+          </div>
+          <div>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control px-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <section class="main">
+        <div class="container py-5">
+           <div class="row py-4">
+            <div class="col-lg-7 pt-4 text-center">
+                <h1 class="pt-4">Nature Has Always Cared For Us !</h1>
+                <button class="btn1 mt-4">More Tips</button>
+            </div>
+           </div> 
+        </div>
+      </section>
+
+    <section class="new">
+     <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-7 m-auto">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="Images/banana.jpg" class="img-luid" alt="" height="90px">
+              <h6>NATURAL</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="Images/greps.jpg" class="img-luid" alt="" height="90px">
+              <h6>ORGANIC</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="Images/mango.jpg" class="img-luid" alt="" height="90px">
+              <h6>HEALTH</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+
+
+    <!--###what's trending-->
+    <section class="product" id="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 py-5 m-auto text-center">
+            <h1>What's Trending</h1>
+            <h6 style="color: red;">Be Healthy Organic Food</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mt-4">
+              <div class="card-body">
+                <img src="Images/Preview.avif" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Energy Food</h6>
+            <p>$1.23</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mt-4">
+              <div class="card-body">
+                <img src="Images/green beans.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>green beans</h6>
+            <p>$2.10</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mt-4">
+              <div class="card-body">
+                <img src="Images/healthy milk.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Healthy Milk</h6>
+            <p>$1.23</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mt-4">
+              <div class="card-body">
+                <img src="Images/refill pack.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>refill Pack</h6>
+            <p>$2.23</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center m-auto">
+            <button class="btn1">Click For More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!--about section-->
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 text-center m-auto">
+        <h1>Welcome To Our Organic Food Sociaty</h1>
+        <h6 style="color: red;">Be Halthy Organic Food</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="Images/best quality product.jpg" class="img-fluid mb-3" alt="">
+        <h5>Best Quality product</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure quasi esse! Voluptate libero itaque ipsa sunt inventore magnam nihil ratione</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="Images/organic food.jpg" class="img-fluid mb-3" alt="">
+        <h5>Organic Food</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure quasi esse! Voluptate libero itaque ipsa sunt inventore magnam nihil ratione</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="Images/girl.jpeg" class="img-fluid mb-3" alt="">
+        <h5>Best Quality Food</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure quasi esse! Voluptate libero itaque ipsa sunt inventore magnam nihil ratione</p>
+      </div>
+    </div>
+    <div class="row pt-3">
+      <div class="col-lg-6 text-center m-auto">
+        <button class="btn1">Shop More</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Shop products-->
+<section class="shop">
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-lg-8 text-center m-auto">
+        <h1>Explore Our Store</h1>
+        <h6 style="color:red">Pick Your Product From Our Store</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 text-center">
+        <div class="card border-0 bg-light mt-4">
+          <div class="card-body">
+            <img src="Images/ig-1.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <h6>Organic Food</h6>
+        <p>$1</p>
+      </div>
+      <div class="col-lg-3 text-center">
+        <div class="card border-0 bg-light mt-4">
+          <div class="card-body">
+            <img src="Images/ig-2.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <h6>Chatpata Masala</h6>
+        <p>$1</p>
+      </div>
+      <div class="col-lg-3 text-center">
+        <div class="card border-0 bg-light mt-4">
+          <div class="card-body">
+            <img src="Images/healthy milk.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <h6>Healthy Milk</h6>
+        <p>$1.3</p>
+      </div>
+      <div class="col-lg-3 text-center">
+        <div class="card border-0 bg-light mt-4">
+          <div class="card-body">
+            <img src="Images/ig-3.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <h6>chana dal</h6>
+        <p>$1</p>
+      </div>
+   </div>
+
+   <div class="row">
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mt-4">
+        <div class="card-body">
+          <img src="Images/ig-4.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h6>Fried Tomato Chips</h6>
+      <p>$1</p>
+    </div>
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mt-4">
+        <div class="card-body">
+          <img src="Images/ig-5.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h6>Eco Friendly Packing</h6>
+      <p>$1</p>
+    </div>
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mt-4">
+        <div class="card-body">
+          <img src="Images/ig-6.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h6>Organic Mango</h6>
+      <p>$1.3</p>
+    </div>
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mt-4">
+        <div class="card-body">
+          <img src="Images/refill pack.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h6>chana dal</h6>
+      <p>$1</p>
+    </div>
+ </div>
+  </div>
+</section>
+
+<section class="apple py-5">
+  <div class="container text-white py-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="font-weight-bold py-3">Unlock You Potential with Good Nutrion</h1>
+        <h6>Be Healthy Organic Food</h6>
+        <button class="btn1 mt-3">More From Us</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Contact US-->
+<section class="contact py-5" id="contactUs">
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-5 text-center m-auto">
+      <h1>Contact Us</h1>
+      <h6 style="color: red;">Always Be In Touch With Us</h6>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="col-lg-9 m-auto">
+      <div class="row">
+        <div class="col-lg-4">
+          <h6>Location</h6>
+          <p>Pune Hadapsar First street</p>
+
+          <h6>Phone</h6>
+          <p>0211-2346788</p>
+
+          <h6>Email</h6>
+          <p>rihhanfood@ggmail.com</p>
+        </div>
+        <div class="col-lg-7">
+          <form>
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control bg-light" placeholder="First Name" style="width:200px">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control bg-light" placeholder="Last Name" style="width:200px">
+              </div>
+            </div>
+          </form>
+          <div class="row">
+            <div class="col-lg-12 py-4">
+              <textarea name="" class="bg-light"placeholder="Enter Your Message" cols="10" row="5" style="width:450px; border:1px solid black"></textarea>
+            </div>
+          </div>
+          <button class="btn1" id="nextStep">submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--Footer Part-->
+<section class="news py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 m-auto text-center">
+        <h1>Join Our Secret Society</h1>
+        <input type="text" class="px-3" placeholder="Enter Your Email">
+        <button class="btn2">Submit</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-11">
+        <div class="row">
+          <div class="col-lg-3 py-4">
+            <h5 class="pb-3">CUSTOMER CARE</h5>
+            <p>Regular</p>
+            <p>On Time</p>
+            <p>Always Care</p>
+          </div>
+          <div class="col-lg-3 py-4">
+            <h5 class="pb-3">Terms & Condition</h5>
+            <p>Pricing</p>
+            <p>Delivery</p>
+            <p>Refund Policy</p>
+          </div>
+          <div class="col-lg-3 py-4">
+            <h5 class="pb-3">Help</h5>
+            <p>Help Center</p>
+            <p>Author</p>
+          </div>
+          <div class="col-lg-3 py-4">
+            <h5 class="pb-3">SOCIAL LINKS</h5>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-google-plus"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <p class="text-center">Copyright @2022 All rights reserved| This template is made with by proWeb</p>
+  </div>
+</section>
+<!--Login Section-->
+<section class="modal fade" id="loginModal" tabindex="-1" role="dailog" aria-labelledby="exampleModal">
+<div class="modal-dailog modal-dailog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header border-bottom-0">
+      <button type="button" class="close" data-dismiss="modal" aria-label="close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="form-title text-center">
+        <h4>Login</h4>
+      </div>
+      <div class="d-flex flex-column text-center">
+        <form>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email1" value="th:text='${theDate}'" placeholder="your email address">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="password1" placeholder="your password">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+</body>
+</html>

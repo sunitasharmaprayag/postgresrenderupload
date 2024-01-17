@@ -15,7 +15,7 @@ import TLP.O1TLPP.service.EmployeeService;
 
 
 public class LoginControllerClass {
-	@GetMapping("/login")
+	@GetMapping("/")
 	public String login(Model theModel) {
 		
 		
